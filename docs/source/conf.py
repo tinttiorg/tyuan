@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Dr. T'
+copyright = '2022, UniverSee'
+author = 'Ting Yuan'
 
 release = '0.1'
 version = '0.1.0'
@@ -33,3 +33,17 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+master_doc = 'index'
+
+root_doc = 'index'
+
+
+# def supsub_role(name, rawtext, text, lineno, inliner, options={}, content=[]):
+#     node = docutils.nodes.superscript()
+#     node2 = docutils.nodes.substitution_reference(refname=text)
+#     node += [node2]
+#     return [node],[]
+
+# def setup(app):
+#     app.add_role('supsub', supsub_role)
